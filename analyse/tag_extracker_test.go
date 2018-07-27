@@ -266,7 +266,7 @@ func TestExtractTags(t *testing.T) {
 		}
 		for i, tag := range result {
 			if tag.text != Tags[index][i] {
-				t.Fatalf("%s != %s", tag, Tags[index][i])
+				t.Fatalf("%v,%v", tag, Tags[index][i])
 			}
 		}
 	}

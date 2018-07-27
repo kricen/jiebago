@@ -4,7 +4,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/wangbin/jiebago/posseg"
+	"github.com/kricen/jiebago/posseg"
 )
 
 const dampingFactor = 0.85

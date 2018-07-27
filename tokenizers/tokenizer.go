@@ -7,7 +7,7 @@ import (
 
 	"github.com/blevesearch/bleve/analysis"
 	"github.com/blevesearch/bleve/registry"
-	"github.com/wangbin/jiebago"
+	"github.com/kricen/jiebago"
 )
 
 // Name is the jieba tokenizer name.
